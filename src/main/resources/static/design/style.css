@@ -2069,3 +2069,22 @@ body.waiting-for-control #mouse-move-buttons.show > #playback-controller > div:h
         font-size: 2vmin;
     }
 }
+/* — End Shower Button Styles (add these after the media block) — */
+#end-shower-container {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.control-button#end-shower {
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+  /* match the dynamic text color used throughout Big Picture */
+  color: var(--color, #fff);
+  transition: opacity 0.3s ease;
+}
+.control-button#end-shower:hover {
+  opacity: 0.7;
+}
